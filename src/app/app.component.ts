@@ -12,7 +12,7 @@ import { Observable } from 'rxjs/Observable';
 export class AppComponent {
   title = 'Wiki Search';
   // readonly ROOT_URL = 'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=japan&origin=*&format=json';
-  readonly ROOT_URL = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=Harry Potter&origin=*&callback=JSON_CALLBACK';
+  readonly ROOT_URL = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=Harry Potter&origin=*';
   // https://en.wikipedia.org/w/api.php?action=query&format=json&gsrlimit=15&generator=search&origin=*&gsrsearch=japan"
 
 
