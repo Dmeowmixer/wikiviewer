@@ -2,12 +2,8 @@
 <h2>Learn you something</h2>
 <input type="text" placeholder="Search for pages..">
 <button (click)="getPosts()">Get Posts</button>
-<div *ngFor="let post of posts | async">
- {{ post | json }}
+<div *ngFor="let value of values">
+ {{ value }}
+  <div>Errors: {{anyErrors}}</div>
+  <div>Finished: {{finished}}</div>
 </div>
-
-<ul class=filter-select>
-  <li class="filter-select-list">
-    <p class="wiki-page"></p>
-  </li>
-</ul>
